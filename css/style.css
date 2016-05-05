@@ -1,0 +1,126 @@
+* { 
+padding: 0;
+margin: 0;
+font-size: 100%;
+line-height: 1cm;
+}
+
+body { 
+            margin: auto;
+            width: 100%;
+            min-height: 320px;
+            font-size: 1.5em;
+            font-family: 'reenie beanie', 'open sans';
+            color: darkgray;
+            line-height: 2em;
+            background color: #F7F7F7;
+           }
+
+h1 { align-content: left;
+    padding-left: .5em;
+    padding-top: .2em;
+    font-family: 'reenie beanie';
+    font-size: 1.5em;
+    color: darkslategray;
+    text-transform: uppercase;}
+
+hr { display: block;
+    margin-top: 1.2em;
+    margin-bottom: 0.5em;
+    margin-left: 22em;
+    margin-right: 22em;;
+    border-style: inset;
+    border-width: 1.3px;
+}
+
+nav ul li {
+    display: inline;
+    width: 100px;
+    color: #000000;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover {
+    color: #5B959D;
+}
+
+ul {
+    position: fixed;
+    top: 100;
+    width: 100%;
+}
+
+li a:link {
+        text-decoration: none;
+        letter-spacing: 1px;
+        text-transform: lowercase;
+        font-size: 95%;
+        vertical-align: middle;
+}
+        
+/* unvisited link */
+ li a:link {
+        color: black;
+        text-transform: lowercase;}
+
+/* visited link */
+li a:visited {
+        color: #5B959D;
+        text-transform: lowercase;}
+
+
+a:link {
+        text-decoration: none;
+        letter-spacing: 1px;
+        text-transform: uppercase;
+        font-size: 80%;
+}
+        
+/* unvisited link */
+ a:link {
+        color: darkslategray;
+        text-transform: uppercase;}
+
+/* visited link */
+a:visited {
+        color: darkgray;
+        text-transform: uppercase;}
+
+
+.Marque {
+    margin-top: 2em;
+    align-content: center;
+    width: 150px;
+    
+}
+
+.copyright {font}
+
+
+.scallops {
+    width: 100%;
+}
+
+
+
+.intro1 {
+    align-content: center;
+    padding-left: 15em;
+    padding-right: 15em;
+    font-size: .8em;
+    font-family: 'open sans';
+    color: black;
+    padding-top: .5em;
+}
+
+
+.intro {
+    align-content: center;
+    padding-left: 15em;
+    padding-right: 15em;
+    font-size: .8em;
+    font-family: 'open sans';
+    color: black;
+}
