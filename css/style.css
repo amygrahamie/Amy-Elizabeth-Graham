@@ -5,24 +5,38 @@ font-size: 100%;
 line-height: 1cm;
 }
 
-body { 
+
+
+body {
             margin: auto;
             width: 100%;
             min-height: 320px;
             font-size: 1.5em;
-            font-family: 'reenie beanie', 'open sans';
+            font-family: 'reenie beanie', 'raleway dots';
             color: darkgray;
             line-height: 2em;
             background color: #F7F7F7;
            }
 
-h1 { align-content: left;
-    padding-left: .7em;
-    padding-top: .5em;
-    font-family: 'reenie beanie';
-    font-size: 1.1em;
-    color: darkslategray;
-    text-transform: uppercase;}
+h1 {
+    padding-left: 1.4em;
+    padding-top: .7em;
+    font-family: 'raleway dots';
+    font-size: .8em;
+    color: black;
+    text-transform: uppercase;
+    letter-spacing: .3em;
+    font-weight: 800;
+}
+
+
+h1.hover {
+    opacity: 0.3;
+}
+
+.one { 
+    color: white;
+}
 
 hr { display: block;
     margin-top: 1.2em;
@@ -30,7 +44,8 @@ hr { display: block;
     margin-left: 22em;
     margin-right: 22em;;
     border-style: inset;
-    border-width: 1.3px;
+    border-width: 1px;
+    
 }
 
 nav ul li {
@@ -66,7 +81,7 @@ li a:link {
 
 /* visited link */
 li a:visited {
-        color: #5B959D;
+        color: black;
         text-transform: lowercase;}
 
 
@@ -108,10 +123,11 @@ a:visited {
     align-content: center;
     padding-left: 15em;
     padding-right: 15em;
-    font-size: .8em;
-    font-family: 'open sans';
+    font-size: .7em;
+    font-family: 'raleway dots';
     color: black;
-    padding-top: .7em;
+    padding-top: .9em;
+    
 }
 
 
@@ -119,10 +135,14 @@ a:visited {
     align-content: center;
     padding-left: 15em;
     padding-right: 15em;
-    font-size: .8em;
-    font-family: 'open sans';
+    font-size: .7em;
+    font-family: 'raleway dots';
     color: black;
 }
+
+
+
+
 
 
 
@@ -157,6 +177,10 @@ a:visited {
 
 
 
+
+
+
+
 #photos {
   /* Prevent vertical gaps */
   line-height: 0;
@@ -178,31 +202,35 @@ a:visited {
 }
 
 @media (max-width: 1200px) {
-  #photos {
+  .photos {
   -moz-column-count:    2;
   -webkit-column-count: 2;
   column-count:         2;
   }
 }
 @media (max-width: 1000px) {
-  #photos {
+  .photos {
   -moz-column-count:    2;
   -webkit-column-count: 2;
   column-count:         2;
   }
 }
 @media (max-width: 800px) {
-  #photos {
+  .photos {
   -moz-column-count:    2;
   -webkit-column-count: 2;
   column-count:         2;
   }
 }
 @media (max-width: 400px) {
-  #photos {
+  .photos {
   -moz-column-count:    1;
   -webkit-column-count: 1;
   column-count:         1;
   }
-}
+
+    
+    
+    
+
 
