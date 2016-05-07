@@ -18,6 +18,38 @@ padding-right: 4em;}
 }
 
 
+
+.scallops {
+    width: 100%;
+    padding-bottom: 5em;
+    margin-bottom: 3em;
+}
+
+
+
+div.palepink {
+    background-color: #F5E7EE;
+}
+
+
+.blockquote1 {margin-top: 1em;
+            border-top: 1px solid white;
+            border-bottom: 1px solid white;
+            margin-left: 9em;
+            margin-right: 9em;
+            padding-left: 1em;
+            padding-right: 1em;
+            color: black;
+            font-family: 'raleway dots';
+            font-weight: 800;
+            font-size: 1.3em;
+}
+
+
+
+
+
+
 .marque {
     width: 8%;
     height: auto;
@@ -40,8 +72,8 @@ padding-right: 4em;}
 
 h1 { font-family: 'reenie beanie';
     font-size: 2em;
-    padding-top: .5em;
-    padding-bottom: .5em;}
+    padding-top: 1em;
+    padding-bottom: 1em;}
 
 h2 { font-family: 'raleway';
     font-size: 1.5;
@@ -54,12 +86,15 @@ nav {
     width: 100%;
     position: relative;
     top: 0;
-    opacity: 0.5;
+    opacity: 0.7;
     position: fixed;
     background: white;
     padding-top: .5em;
     background: white;
 }
+
+
+
 
 
 .copyright {
@@ -79,6 +114,9 @@ nav {
     letter-spacing: .2em
 }
 
+
+
+
 .twitter:hover {
     opacity: 0.5;
 }
@@ -92,22 +130,17 @@ nav {
 }
 
 
-.socialicons { margin-top: .5em;
+.socialicons { padding-top: 1em;
                 padding-bottom: 2em;
                 width: 70%;
                 height: auto;
     }
 
-.twitter {padding-right: .3em;}
+.twitter {padding-right: .7em;}
 
-.mail {padding-left: .3em;}
+.mail {padding-left: 1em;}
 
 
-div.turquoise {
-    background-color: #D8F1EB;
-}
-
-.headings3 { margin-left: 7em;}
 
 
 
@@ -137,18 +170,20 @@ ul {
 li a:link {
         text-decoration: none;
         letter-spacing: 1px;
-        font-size: 1.5em;
+        font-size: 1em;
         align-content: right;
-        font-family: 'reenie beanie';
-        text-transform: lowercase;
+        font-family: 'raleway';
+        text-transform: uppercase;
+        font-weight: 500;
+        color: black;
         ;  
 }
         
 /* unvisited link */
  li a:link {
         color: black;
-        font-family: 'reenie beanie';
-        text-transform: lowercase;
+        font-family: 'raleway';
+        text-transform: uppercase;
        
     
        }
@@ -156,8 +191,8 @@ li a:link {
 /* visited link */
 li a:visited {
         color: black;
-        font-family: 'reenie beanie';
-        text-transform: lowercase;
+        font-family: 'raleway';
+        text-transform: uppercase;
         position: fixed
        }
 
