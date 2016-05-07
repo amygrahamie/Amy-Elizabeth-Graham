@@ -5,71 +5,26 @@ font-size: 100%;
 line-height: 1cm;
 }
 
-
-.amarque {
-    width: 5%;
-    padding-left: 1.5em;
-    float: left;
-    
+div.palepink {
+    background-color: #F5E7EE;
 }
 
-.text {
-    padding-top: 1em;
-    padding-bottom: 4em;
-    width: 75%;
+
+.Marque {
+    margin-top: 1.5em;
+    align-content: center;
+    width: 100px;    
 }
 
 
 
 .scallops {
     width: 100%;
-    padding-bottom: 5em;
-    margin-bottom: 3em;
+
 }
 
+.list {padding-top: 1em;}
 
-
-div.palepink {
-    background-color: #F5E7EE;
-}
-
-
-.blockquote1 {margin-top: 1em;
-            border-top: 1px solid white;
-            border-bottom: 1px solid white;
-            margin-left: 9em;
-            margin-right: 9em;
-            padding-left: 1em;
-            padding-right: 1em;
-            color: black;
-            font-family: 'raleway dots';
-            font-weight: 800;
-            font-size: 1.3em;
-}
-
-
-
-
-
-
-.marque {
-    width: 8%;
-    height: auto;
-    float: left;
-    padding-left: 1em;
-    padding-bottom: .5em;
-    padding-top: .2em;
-    padding-right: 1em;
-    position: relative;
-}
-
-.marque:hover {
-    opacity: 0.8;
-}
-
-.one {
-    color: white;
-}
 
 
 h1 { font-family: 'reenie beanie';
@@ -77,109 +32,36 @@ h1 { font-family: 'reenie beanie';
     padding-top: 1em;
     padding-bottom: 1em;}
 
-h2 { font-family: 'raleway';
-    font-size: 1.5;
-    padding-top: .5em;
-    letter-spacing: .1em;
-    align-content: center;
-    }
+
+
 
 nav {
     width: 100%;
-    position: relative;
-    top: 0;
-    opacity: 0.8;
-    position: fixed;
-    background: white;
-    padding-top: .6em;
-    padding-bottom: .6em;
-    background: white;
+    align-content: center;
 }
 
 
-
-
-
-.copyright {
-    font-family: 'raleway dots';
-    font-size: 1.1em;
-    padding-right: .5em;
-    padding-left: 1.5em;
-    padding-bottom: 1em;
-}
-
-.copy {
-    font-family: 'raleway dots';
-    font-size: .6em;
-    text-emphasis: bold;
-    text-transform: uppercase;
-    text-decoration-color: #97D0C0;
-    letter-spacing: .2em
-}
-
-
-
-
-.twitter:hover {
-    opacity: 0.5;
-}
-
-.instagram:hover {
-    opacity: 0.5;
-}
-
-.mail:hover {
-    opacity: 0.5;
-}
-
-
-.socialicons { padding-top: 1em;
-                padding-bottom: 2em;
-                width: 70%;
-                height: auto;
-    }
-
-.twitter {padding-right: .7em;}
-
-.mail {padding-left: 1em;}
-
-
-
-
-
-
-nav ul li {
-    display: inline;
-    position: inherit;
-    width: 100px;
-    color: #000000;
-    text-align: right;
-    text-decoration: none;
-    bottom: auto;
-}
-
-li a:hover {
-    color: #5B959D;
-   
+ul li {
+    display: inline-block;
 }
 
 
 ul {
-    top: 100;
     width: 100%;
-    
+
 }
+
 
 li a:link {
         text-decoration: none;
         letter-spacing: 1px;
-        font-size: 1em;
-        align-content: right;
+        font-size: .8em;
         font-family: 'raleway';
         text-transform: uppercase;
-        font-weight: 500;
-        color: black;
-        ;  
+        font-weight: 600;
+        opacity: 1;
+        letter-spacing: .1em;
+        
 }
         
 /* unvisited link */
@@ -187,8 +69,9 @@ li a:link {
         color: black;
         font-family: 'raleway';
         text-transform: uppercase;
-       
-    
+      font-weight: 500;
+        opacity: 0.8;
+        letter-spacing: .1em;
        }
 
 /* visited link */
@@ -196,16 +79,11 @@ li a:visited {
         color: black;
         font-family: 'raleway';
         text-transform: uppercase;
-        position: fixed
+     font-weight: 500;
+        opacity: 0.8;
+        letter-spacing: .1em;
+
        }
-
-
-
-.meetme {
-    width: 100%;
-}
-
-
 
 
 .hvr-grow {
@@ -238,3 +116,8 @@ float: right;
   -moz-box-sizing: border-box;
   box-sizing: border-box;
 }
+
+
+
+
+

@@ -40,14 +40,12 @@ div.palepink {
             margin-right: 9em;
             padding-left: 1em;
             padding-right: 1em;
-            color: black;
-            font-family: 'raleway dots';
-            font-weight: 800;
-            font-size: 1.3em;
+            color: darkslategray;
+            opacity: 0.7em;
+            font-family: 'raleway';
+            
+            font-size: 1em;
 }
-
-
-
 
 
 
@@ -62,9 +60,6 @@ div.palepink {
     position: relative;
 }
 
-.marque:hover {
-    opacity: 0.8;
-}
 
 .one {
     color: white;
@@ -77,30 +72,17 @@ h1 { font-family: 'reenie beanie';
     padding-bottom: 1em;}
 
 h2 { font-family: 'raleway';
+    font-weight: 400;
     font-size: 1.5;
     padding-top: .5em;
     letter-spacing: .1em;
     align-content: center;
     }
 
-nav {
-    width: 100%;
-    position: relative;
-    top: 0;
-    opacity: 0.8;
-    position: fixed;
-    background: white;
-    padding-top: .6em;
-    padding-bottom: .6em;
-    background: white;
-}
-
-
-
-
 
 .copyright {
-    font-family: 'raleway dots';
+    font-family: 'raleway';
+    font-weight: 400;
     font-size: 1.1em;
     padding-right: .5em;
     padding-left: 1.5em;
@@ -108,7 +90,8 @@ nav {
 }
 
 .copy {
-    font-family: 'raleway dots';
+    font-family: 'raleway';
+    font-weight: 600;
     font-size: .6em;
     text-emphasis: bold;
     text-transform: uppercase;
@@ -145,11 +128,20 @@ nav {
 
 
 
+nav {
+    width: 100%;
+    position: relative;
+    top: 0;
+    opacity: 0.8;
+    position: fixed;
+    background: #F5E7EE;
+    padding-top: .6em;
+    padding-bottom: .6em;
+}
 
 
 nav ul li {
     display: inline;
-    position: inherit;
     width: 100px;
     color: #000000;
     text-align: right;
@@ -176,9 +168,8 @@ li a:link {
         align-content: right;
         font-family: 'raleway';
         text-transform: uppercase;
-        font-weight: 500;
+        font-weight: 400;
         color: black;
-        ;  
 }
         
 /* unvisited link */
@@ -195,7 +186,7 @@ li a:visited {
         color: black;
         font-family: 'raleway';
         text-transform: uppercase;
-        position: fixed
+        position: fixed;
        }
 
 

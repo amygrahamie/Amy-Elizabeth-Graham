@@ -1,0 +1,232 @@
+* { 
+padding: 0;
+margin: 0;
+font-size: 100%;
+line-height: 1cm;
+}
+
+
+.amarque {
+    width: 5%;
+    padding-left: 1.5em;
+    float: left;   
+}
+
+.visualmarque {
+    width: 100%;
+}
+
+.scallops {
+    width: 100%;
+    padding-bottom: 5em;
+    margin-bottom: 3em;
+}
+
+
+
+div.palepink {
+    background-color: #F5E7EE;
+}
+
+
+.blockquote1 {margin-top: 1em;
+            border-top: 1px solid white;
+            border-bottom: 1px solid white;
+            margin-left: 9em;
+            margin-right: 9em;
+            padding-left: 1em;
+            padding-right: 1em;
+            color: darkslategray;
+            opacity: 0.7em;
+            font-family: 'raleway';
+            
+            font-size: 1em;
+}
+
+
+
+
+
+
+.marque {
+    width: 8%;
+    height: auto;
+    float: left;
+    padding-left: 1em;
+    padding-bottom: .5em;
+    padding-top: .2em;
+    padding-right: 1em;
+    position: relative;
+}
+
+.marque:hover {
+    opacity: 0.8;
+}
+
+.one {
+    color: white;
+}
+
+
+h1 { font-family: 'reenie beanie';
+    font-size: 2em;
+    padding-top: 1em;
+    padding-bottom: 1em;}
+
+h2 { font-family: 'raleway';
+    font-weight: 400;
+    font-size: 1.5;
+    padding-top: .5em;
+    letter-spacing: .1em;
+    align-content: center;
+    }
+
+nav {
+    width: 100%;
+    position: relative;
+    top: 0;
+    opacity: 0.8;
+    position: fixed;
+    background: #F5E7EE;
+    padding-top: .6em;
+    padding-bottom: .6em;
+}
+
+
+.copyright {
+    font-family: 'raleway';
+    font-weight: 400;
+    font-size: 1.1em;
+    padding-right: .5em;
+    padding-left: 1.5em;
+    padding-bottom: 1em;
+}
+
+.copy {
+    font-family: 'raleway';
+    font-weight: 600;
+    font-size: .6em;
+    text-emphasis: bold;
+    text-transform: uppercase;
+    text-decoration-color: #97D0C0;
+    letter-spacing: .2em
+}
+
+
+
+
+.twitter:hover {
+    opacity: 0.5;
+}
+
+.instagram:hover {
+    opacity: 0.5;
+}
+
+.mail:hover {
+    opacity: 0.5;
+}
+
+
+.socialicons { padding-top: 1em;
+                padding-bottom: 2em;
+                width: 70%;
+                height: auto;
+    }
+
+.twitter {padding-right: .7em;}
+
+.mail {padding-left: 1em;}
+
+
+
+
+
+
+nav ul li {
+    display: inline;
+    position: inherit;
+    width: 100px;
+    color: #000000;
+    text-align: right;
+    text-decoration: none;
+    bottom: auto;
+}
+
+li a:hover {
+    color: #5B959D;
+   
+}
+
+
+ul {
+    top: 100;
+    width: 100%;
+    
+}
+
+li a:link {
+        text-decoration: none;
+        letter-spacing: 1px;
+        font-size: 1em;
+        align-content: right;
+        font-family: 'raleway';
+        text-transform: uppercase;
+        font-weight: 600;
+        color: black;
+}
+        
+/* unvisited link */
+ li a:link {
+        color: black;
+        font-family: 'raleway';
+        text-transform: uppercase;
+       
+    
+       }
+
+/* visited link */
+li a:visited {
+        color: black;
+        font-family: 'raleway';
+        text-transform: uppercase;
+        position: fixed;
+       }
+
+
+
+
+
+.hvr-grow {
+  display: inline-block;
+  vertical-align: middle;
+  -webkit-transform: translateZ(0);
+  transform: translateZ(0);
+  box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-transition-duration: 0.3s;
+  transition-duration: 0.3s;
+  -webkit-transition-property: transform;
+  transition-property: transform;
+float: right;
+    padding-left: 1em;
+    padding-right: 1.5em;
+}
+.hvr-grow:hover, .hvr-grow:focus, .hvr-grow:active {
+  -webkit-transform: scale(1.1);
+  transform: scale(1.1);
+}
+
+
+*,
+*:after,
+*:before {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+
+
