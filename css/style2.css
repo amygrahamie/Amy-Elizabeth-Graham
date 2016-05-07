@@ -5,15 +5,32 @@ font-size: 100%;
 line-height: 1cm;
 }
 
+.column-left{ float: left; width: 30%; padding-left: 4em;}
+.column-right{ float: right; width: 30%;; 
+padding-right: 4em;}
+.column-center{ display: inline-block; width: 30%; }
+
+
+.text {
+    padding-top: 1em;
+    padding-bottom: 4em;
+    width: 75%;
+}
+
 
 .marque {
-    width: 28%;
+    width: 8%;
     height: auto;
     float: left;
     padding-left: 1em;
     padding-bottom: .5em;
     padding-top: .2em;
+    padding-right: 1em;
     position: relative;
+}
+
+.marque:hover {
+    opacity: 0.8;
 }
 
 .one {
@@ -21,15 +38,27 @@ line-height: 1cm;
 }
 
 
+h1 { font-family: 'reenie beanie';
+    font-size: 2em;
+    padding-top: .5em;
+    padding-bottom: .5em;}
+
+h2 { font-family: 'raleway';
+    font-size: 1.5;
+    padding-top: .5em;
+    letter-spacing: .1em;
+    align-content: center;
+    }
 
 nav {
     width: 100%;
     position: relative;
-    bottom: 0;
-    opacity: 0.9;
+    top: 0;
+    opacity: 0.5;
     position: fixed;
     background: white;
     padding-top: .5em;
+    background: white;
 }
 
 
@@ -89,14 +118,13 @@ nav ul li {
     width: 100px;
     color: #000000;
     text-align: right;
-    padding: 
     text-decoration: none;
+    bottom: auto;
 }
 
 li a:hover {
     color: #5B959D;
-   ;
-    
+   
 }
 
 
@@ -130,34 +158,8 @@ li a:visited {
         color: black;
         font-family: 'reenie beanie';
         text-transform: lowercase;
+        position: fixed
        }
-
-
-a:link {
-        text-decoration: none;
-        letter-spacing: 1px;
-        text-transform: uppercase;
-        font-size: 90%;
-}
-        
-/* unvisited link */
- a:link {
-        color: darkslategray;
-        text-transform: uppercase;
-}
-
-/* visited link */
-a:visited {
-        color: darkgray;
-        text-transform: uppercase;
-}
-
-
-.Marque {
-    margin-top: 2em;
-    align-content: center;
-    width: 150px;    
-}
 
 
 
@@ -205,25 +207,5 @@ float: right;
 
 
 
-
-#photos {
-  /* Prevent vertical gaps */
-  line-height: 0;
-   
-  -webkit-column-count: 2;
-  -webkit-column-gap:   3px;
-  -moz-column-count:    2;
-  -moz-column-gap:      3px;
-  column-count:         2;
-  column-gap:           3px;
-    padding-left: 5em;
-    padding-right: 5em;
-}
-
-#photos img {
-  /* Just in case there are inline attributes */
-  width: 100% !important;
-  height: auto !important;
-}
     
     

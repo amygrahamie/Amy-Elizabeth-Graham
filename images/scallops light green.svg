@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="7722px" height="387px" viewBox="0 0 7722 387" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 3.7.2 (28276) - http://www.bohemiancoding.com/sketch -->
+    <title>Group 3</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <filter x="-50%" y="-50%" width="200%" height="200%" filterUnits="objectBoundingBox" id="filter-1">
+            <feOffset dx="2" dy="2" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="4.5" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.5 0" type="matrix" in="shadowBlurOuter1" result="shadowMatrixOuter1"></feColorMatrix>
+            <feMerge>
+                <feMergeNode in="shadowMatrixOuter1"></feMergeNode>
+                <feMergeNode in="SourceGraphic"></feMergeNode>
+            </feMerge>
+        </filter>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Desktop-HD-Copy" transform="translate(0.000000, -3358.000000)" fill="#D8F1EB">
+            <g id="Group-3" transform="translate(-421.000000, 3358.000000)">
+                <g id="Group-2" filter="url(#filter-1)" transform="translate(0.000000, 10.000000)">
+                    <ellipse id="Oval-1" cx="5032.70346" cy="183.192044" rx="182.703462" ry="182.798243"></ellipse>
+                    <ellipse id="Oval-1" cx="5356.70346" cy="183.192044" rx="182.703462" ry="182.798243"></ellipse>
+                    <ellipse id="Oval-1" cx="5694.70346" cy="183.192044" rx="182.703462" ry="182.798243"></ellipse>
+                    <ellipse id="Oval-1" cx="6018.70346" cy="183.192044" rx="182.703462" ry="182.798243"></ellipse>
+                    <ellipse id="Oval-1" cx="6334.70346" cy="183.192044" rx="182.703462" ry="182.798243"></ellipse>
+                    <ellipse id="Oval-1" cx="6659.70346" cy="183.192044" rx="182.703462" ry="182.798243"></ellipse>
+                    <path d="M6989.70346,365.990287 C7090.6078,365.990287 7172.40692,284.148726 7172.40692,183.192044 C7172.40692,82.2353615 7090.6078,0.393800286 6989.70346,0.393800286 C6888.79913,0.393800286 6807,82.2353615 6807,183.192044 C6807,284.148726 6888.79913,365.990287 6989.70346,365.990287 Z" id="Oval-1"></path>
+                    <ellipse id="Oval-1" cx="7314.70346" cy="183.192044" rx="182.703462" ry="182.798243"></ellipse>
+                    <ellipse id="Oval-1" cx="7647.70346" cy="183.192044" rx="182.703462" ry="182.798243"></ellipse>
+                    <ellipse id="Oval-1" cx="7971.70346" cy="183.192044" rx="182.703462" ry="182.798243"></ellipse>
+                    <ellipse id="Oval-1" cx="1787.70346" cy="182.798243" rx="182.703462" ry="182.798243"></ellipse>
+                    <ellipse id="Oval-1" cx="2111.70346" cy="182.798243" rx="182.703462" ry="182.798243"></ellipse>
+                    <ellipse id="Oval-1" cx="2449.70346" cy="182.798243" rx="182.703462" ry="182.798243"></ellipse>
+                    <ellipse id="Oval-1" cx="2773.70346" cy="182.798243" rx="182.703462" ry="182.798243"></ellipse>
+                    <ellipse id="Oval-1" cx="3089.70346" cy="182.798243" rx="182.703462" ry="182.798243"></ellipse>
+                    <ellipse id="Oval-1" cx="3414.70346" cy="182.798243" rx="182.703462" ry="182.798243"></ellipse>
+                    <ellipse id="Oval-1" cx="3744.70346" cy="182.798243" rx="182.703462" ry="182.798243"></ellipse>
+                    <ellipse id="Oval-1" cx="4069.70346" cy="182.798243" rx="182.703462" ry="182.798243"></ellipse>
+                    <ellipse id="Oval-1" cx="4402.70346" cy="182.798243" rx="182.703462" ry="182.798243"></ellipse>
+                    <ellipse id="Oval-1" cx="4726.70346" cy="182.798243" rx="182.703462" ry="182.798243"></ellipse>
+                    <ellipse id="Oval-1" cx="512.703462" cy="182.798243" rx="182.703462" ry="182.798243"></ellipse>
+                    <ellipse id="Oval-1" cx="837.703462" cy="182.798243" rx="182.703462" ry="182.798243"></ellipse>
+                    <ellipse id="Oval-1" cx="1170.70346" cy="182.798243" rx="182.703462" ry="182.798243"></ellipse>
+                    <ellipse id="Oval-1" cx="1494.70346" cy="182.798243" rx="182.703462" ry="182.798243"></ellipse>
+                </g>
+                <rect id="Rectangle-55" x="1718" y="4" width="3199" height="138"></rect>
+                <rect id="Rectangle-55" x="4857" y="0" width="3305" height="138"></rect>
+                <rect id="Rectangle-55" x="377" y="4" width="1455" height="133"></rect>
+            </g>
+        </g>
+    </g>
+</svg>
