@@ -6,6 +6,22 @@ line-height: 1cm;
 }
 
 
+.copyright {
+    font-family: 'raleway dots';
+    font-size: 1.1em;
+    padding-right: .5em;
+    padding-left: 1.5em;
+    padding-bottom: 1em;
+}
+
+.copy {
+    font-family: 'raleway dots';
+    font-size: .6em;
+    text-emphasis: bold;
+    text-transform: uppercase;
+    text-decoration-color: #97D0C0;
+    letter-spacing: .2em
+}
 
 .twitter:hover {
     opacity: 0.5;
