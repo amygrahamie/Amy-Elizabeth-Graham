@@ -7,6 +7,18 @@ line-height: 1cm;
 
 
 
+.twitter:hover {
+    opacity: 0.5;
+}
+
+.instagram:hover {
+    opacity: 0.5;
+}
+
+.mail:hover {
+    opacity: 0.5;
+}
+
 ul.img-list {
   list-style-type: none;
   margin: 0;
@@ -173,11 +185,11 @@ span.contact {
   color: white;
   cursor: pointer;
   display: table;
-  width: 400px;
+  width: 410px;
   left: 0;
   position: absolute;
   top: 0;
-  height: 242px;
+  height: 427px;
     -webkit-transition: opacity 500ms;
   -moz-transition: opacity 500ms;
   -o-transition: opacity 500ms;
@@ -195,11 +207,11 @@ span.contact {
   color: white;
   cursor: pointer;
   display: table;
-  height: 242px;
+  height: 427px;
   left: 0;
   position: absolute;
   top: 0;
-  width: 400px;
+  width: 410px;
   opacity: 0;
  font-size: 1em;
     font-family: 'raleway';
