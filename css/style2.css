@@ -89,7 +89,8 @@ nav {
     opacity: 0.7;
     position: fixed;
     background: white;
-    padding-top: .5em;
+    padding-top: .3em;
+    padding-bottom: .3em;
     background: white;
 }
 
