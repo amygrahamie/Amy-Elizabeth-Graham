@@ -6,6 +6,7 @@ line-height: 1cm;
 }
 
 
+
 ul.img-list {
   list-style-type: none;
   margin: 0;
@@ -22,7 +23,7 @@ ul.img-list li {
 }
 
 span.chur {
-  background: rgba(0,0,0,0.5);
+  
   color: white;
   cursor: pointer;
   display: table;
@@ -31,6 +32,11 @@ span.chur {
   position: absolute;
   top: 0;
   height: 417px;
+    -webkit-transition: opacity 500ms;
+  -moz-transition: opacity 500ms;
+  -o-transition: opacity 500ms;
+  transition: opacity 500ms;
+	
 }
 
 span.chur span {
@@ -75,6 +81,10 @@ span.portfolio {
   position: absolute;
   top: 0;
   height: 485px;
+   -webkit-transition: opacity 500ms;
+  -moz-transition: opacity 500ms;
+  -o-transition: opacity 500ms;
+  transition: opacity 500ms;
 }
 
 span.portfolio span {
@@ -120,6 +130,11 @@ span.side {
   position: absolute;
   top: 0;
   height: 274px;
+    -webkit-transition: opacity 500ms;
+  -moz-transition: opacity 500ms;
+  -o-transition: opacity 500ms;
+  transition: opacity 500ms;
+
 }
 
 span.side span {
@@ -163,6 +178,10 @@ span.contact {
   position: absolute;
   top: 0;
   height: 242px;
+    -webkit-transition: opacity 500ms;
+  -moz-transition: opacity 500ms;
+  -o-transition: opacity 500ms;
+  transition: opacity 500ms;
 }
 
 span.contact span {
@@ -205,6 +224,10 @@ span.taj {
   position: absolute;
   top: 0;
   height: 427px;
+  -webkit-transition: opacity 500ms;
+  -moz-transition: opacity 500ms;
+  -o-transition: opacity 500ms;
+  transition: opacity 500ms;
 }
 
 span.taj span {
