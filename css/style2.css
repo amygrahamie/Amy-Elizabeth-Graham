@@ -5,11 +5,12 @@ font-size: 100%;
 line-height: 1cm;
 }
 
-.column-left{ float: left; width: 30%; padding-left: 4em;}
-.column-right{ float: right; width: 30%;; 
-padding-right: 4em;}
-.column-center{ display: inline-block; width: 30%; }
 
+.amarque {
+    width: 5%;
+    padding-left: 1.5em;
+    float: left;   
+}
 
 .text {
     padding-top: 1em;
@@ -86,11 +87,11 @@ nav {
     width: 100%;
     position: relative;
     top: 0;
-    opacity: 0.7;
+    opacity: 0.8;
     position: fixed;
     background: white;
-    padding-top: .3em;
-    padding-bottom: .3em;
+    padding-top: .6em;
+    padding-bottom: .6em;
     background: white;
 }
 
