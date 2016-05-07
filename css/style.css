@@ -5,6 +5,10 @@ font-size: 100%;
 line-height: 1cm;
 }
 
+div.palepink {
+    background-color: #F5E7EE;
+}
+
 
 .copyright {
     font-family: 'raleway dots';
@@ -20,7 +24,8 @@ line-height: 1cm;
     text-emphasis: bold;
     text-transform: uppercase;
     text-decoration-color: #97D0C0;
-    letter-spacing: .2em
+    letter-spacing: .2em;
+    float: left;
 }
 
 
@@ -76,16 +81,10 @@ span.chur {
     font-size: 1em;
     font-family: 'raleway';
     letter-spacing: .2em;
-    text-transform: uppercase;
-}
+    text-transform: uppercase;}
 
 ul.img-list li:hover span.chur {
-  opacity: 1;
-}
-
-
-
-
+  opacity: 1;}
 
 
 span.portfolio {
@@ -101,14 +100,14 @@ span.portfolio {
    -webkit-transition: opacity 500ms;
   -moz-transition: opacity 500ms;
   -o-transition: opacity 500ms;
-  transition: opacity 500ms;
-}
+  transition: opacity 500ms;}
+
 
 span.portfolio span {
   display: table-cell;
   text-align: center;
-  vertical-align: middle;
-}
+  vertical-align: middle;}
+
 
 span.portfolio {
   background: rgba(0,0,0,0.5);
@@ -124,15 +123,10 @@ span.portfolio {
     font-size: 1em;
     font-family: 'raleway';
     letter-spacing: .2em;
-    text-transform: uppercase;
-}
+    text-transform: uppercase;}
 
 ul.img-list li:hover span.portfolio {
-  opacity: 1;
-}
-
-
-
+  opacity: 1;}
 
 
 
@@ -151,14 +145,12 @@ span.side {
   -moz-transition: opacity 500ms;
   -o-transition: opacity 500ms;
   transition: opacity 500ms;
-
 }
 
 span.side span {
   display: table-cell;
   text-align: center;
-  vertical-align: middle;
-}
+  vertical-align: middle;}
 
 span.side {
   background: rgba(0,0,0,0.5);
@@ -175,12 +167,10 @@ font-size: 1em;
     font-family: 'raleway';
     letter-spacing: .2em;
     text-transform: uppercase;
-    float: left;
-}
+    float: left;}
 
 ul.img-list li:hover span.side {
-  opacity: 1;
-}
+  opacity: 1;}
 
 
 
@@ -198,14 +188,12 @@ span.contact {
     -webkit-transition: opacity 500ms;
   -moz-transition: opacity 500ms;
   -o-transition: opacity 500ms;
-  transition: opacity 500ms;
-}
+  transition: opacity 500ms;}
 
 span.contact span {
   display: table-cell;
   text-align: center;
-  vertical-align: middle;
-}
+  vertical-align: middle;}
 
 span.contact {
   background: rgba(0,0,0,0.5);
@@ -222,8 +210,7 @@ span.contact {
     font-family: 'raleway';
     letter-spacing: .2em;
     text-transform: uppercase;
-    float: left;
-}
+    float: left;}
 
 ul.img-list li:hover span.contact {
   opacity: 1;
@@ -294,8 +281,9 @@ ul.img-list li:hover span.taj {
 .socialicons { margin-top: .5em;
                 padding-bottom: 2em;
                 width: 70%;
-                height: auto;
-    }
+                height: auto;}
+
+
 
 .twitter {padding-right: .7em;}
 
@@ -333,25 +321,24 @@ body {
            }
 
 h1 {
-    padding-left: 1.5em;
-    padding-top: .9em;
-    font-family: 'raleway dots';
+    padding-top: .1em;
+    font-family: 'raleway';
     font-size: .9em;
     color: black;
     text-transform: uppercase;
-    letter-spacing: 5em;
-    font-weight: 1000;
-    opacity: 1;
+    font-weight: 500;
+    opacity: 0.8;
 }
 
 
 h1:hover {
-    opacity: 0.4;
+    opacity: 0.6;
 }
 
 .one { 
-    color: white;
+    color:#F5E7EE;
 }
+
 
 hr { display: block;
     margin-top: 1.2em;
@@ -368,7 +355,6 @@ nav ul li {
     width: 100px;
     color: #000000;
     text-align: center;
-    padding: 14px 16px;
     text-decoration: none;
 }
 
@@ -381,40 +367,23 @@ ul {
     width: 100%;
 }
 
-li a:link {
-        text-decoration: none;
-        letter-spacing: 1px;
-        text-transform: lowercase;
-        font-size: 95%;
-        vertical-align: middle;
-}
-        
-/* unvisited link */
- li a:link {
-        color: black;
-        text-transform: lowercase;}
-
-/* visited link */
-li a:visited {
-        color: black;
-        text-transform: lowercase;}
 
 
 a:link {
         text-decoration: none;
-        letter-spacing: 1px;
         text-transform: uppercase;
-        font-size: 80%;
+        font-size: 70%;
+        letter-spacing: .1em;
 }
         
 /* unvisited link */
  a:link {
-        color: darkslategray;
+        color: black;
         text-transform: uppercase;}
 
 /* visited link */
 a:visited {
-        color: darkgray;
+        color: black;
         text-transform: uppercase;}
 
 
@@ -432,7 +401,6 @@ a:visited {
 
 .scallops {
     width: 100%;
-    padding-top: .5em;
 }
 
 .scallops2 {
@@ -440,13 +408,13 @@ a:visited {
     padding-bottom: 2em;
 }
 
-.intro1 {
+.introone {
     align-content: center;
     padding-left: 15em;
     padding-right: 15em;
-    font-size: .7em;
+    font-size: .8em;
     font-family: 'raleway dots';
-    color: black;
+    color: #000000;
     padding-top: .9em;
     
 }
@@ -456,14 +424,10 @@ a:visited {
     align-content: center;
     padding-left: 15em;
     padding-right: 15em;
-    font-size: .7em;
+    font-size: .8em;
     font-family: 'raleway dots';
-    color: black;
+    color: #000000;
 }
-
-
-
-
 
 
 
