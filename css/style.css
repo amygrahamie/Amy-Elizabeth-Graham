@@ -17,6 +17,8 @@ div.turquoise {
 }
 
 /*----------------------*/
+
+
 .copyright {
     font-family: 'raleway';
     font-size: 1.1em;
@@ -95,6 +97,12 @@ ul.img-list li:hover span.chur {
   opacity: 1;}
 
 
+
+
+
+
+
+
 span.portfolio {
   background: rgba(0,0,0,0.5);
   color: white;
@@ -144,11 +152,11 @@ span.side {
   color: white;
   cursor: pointer;
   display: table;
-  width: 400px;
+  width: 1137px;
   left: 0;
   position: absolute;
   top: 0;
-  height: 274px;
+  height: 755px;
     -webkit-transition: opacity 500ms;
   -moz-transition: opacity 500ms;
   -o-transition: opacity 500ms;
@@ -165,11 +173,11 @@ span.side {
   color: white;
   cursor: pointer;
   display: table;
-  height: 274px;
+  height: 755px;
   left: 0;
   position: absolute;
   top: 0;
-  width: 400px;
+  width: 1137px;
   opacity: 0;
 font-size: 1em;
     font-family: 'raleway';
@@ -188,11 +196,11 @@ span.contact {
   color: white;
   cursor: pointer;
   display: table;
-  width: 410px;
+  width: 1137px;
   left: 0;
   position: absolute;
   top: 0;
-  height: 427px;
+  height: 755px;
     -webkit-transition: opacity 500ms;
   -moz-transition: opacity 500ms;
   -o-transition: opacity 500ms;
@@ -289,7 +297,7 @@ ul.img-list li:hover span.taj {
 .socialicons { margin-top: .5em;
                 padding-bottom: 2em;
                 width: 70%;
-    height: auto;}
+                height: auto;}
 
 
 
@@ -316,17 +324,6 @@ ul.img-list li:hover span.taj {
             padding-bottom: .7em;}
 
 
-body {
-            margin: auto;
-            width: 100%;
-            max-width: 950;
-            min-height: 320px;
-            font-size: 1.5em;
-            font-family: 'reenie beanie', 'raleway';
-            line-height: 2em;
-            background color: li;
-           }
-
 h1 {
     padding-top: .2em;
     font-family: 'raleway';
@@ -340,7 +337,7 @@ h1 {
 
 
 h1:hover {
-    opacity: 0.6;
+    opacity: 0.5;
 }
 
 .one { 
@@ -501,10 +498,6 @@ a:visited {
   -moz-box-sizing: border-box;
   box-sizing: border-box;
 }
-
-
-
-
 
 
 
