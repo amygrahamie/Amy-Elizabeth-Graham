@@ -22,6 +22,9 @@ line-height: 1cm;
     margin-bottom: 3em;
 }
 
+.bridesmaid {
+    width: 100%;
+}
 
 
 div.palepink {
@@ -39,7 +42,6 @@ div.palepink {
             color: darkslategray;
             opacity: 0.7em;
             font-family: 'raleway';
-            
             font-size: 1em;
 }
 
@@ -145,7 +147,7 @@ nav {
 
 
 
-li a:hover {
+a:hover {
     color: #5B959D;
    
 }
