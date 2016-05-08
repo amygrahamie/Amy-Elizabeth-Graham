@@ -131,6 +131,18 @@ a:hover {
     color: #5B959D;}
 
 
+.viewmore {
+        text-decoration: underline;
+        letter-spacing: 1px;
+        font-size: 1.4em;
+        font-family: 'reenie beanie';
+        text-transform: lowercase;
+        font-weight: 600;
+        color: black;
+        align-content: center;
+}
+
+
 a:link {
         text-decoration: none;
         letter-spacing: 1px;
