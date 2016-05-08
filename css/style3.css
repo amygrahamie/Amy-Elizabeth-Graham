@@ -36,53 +36,35 @@ h1 { font-family: 'reenie beanie';
 
 
 nav {
+    top: 100;
     width: 100%;
-    align-content: center;
+    
 }
 
-
-ul li {
-    display: inline-block;
-}
-
-
-ul {
-    width: 100%;
-
-}
-
-
-li a:link {
+a:link {
         text-decoration: none;
         letter-spacing: 1px;
-        font-size: .8em;
-        font-family: 'raleway';
-        text-transform: uppercase;
+        font-size: 1.4em;
+        align-content: right;
+        font-family: 'reenie beanie';
+        text-transform: lowercase;
         font-weight: 600;
-        opacity: 1;
-        letter-spacing: .1em;
-        
+        color: black;
 }
         
 /* unvisited link */
- li a:link {
+ a:link {
         color: black;
-        font-family: 'raleway';
-        text-transform: uppercase;
-      font-weight: 500;
-        opacity: 0.8;
-        letter-spacing: .1em;
+        font-family: 'reenie beanie';
+        text-transform: lowercase;
        }
 
 /* visited link */
-li a:visited {
+a:visited {
         color: black;
-        font-family: 'raleway';
-        text-transform: uppercase;
-     font-weight: 500;
-        opacity: 0.8;
-        letter-spacing: .1em;
-
+        font-family: 'reenie beanie;
+        text-transform: lowercase;
+        position: fixed;
        }
 
 

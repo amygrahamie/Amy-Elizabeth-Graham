@@ -160,10 +160,10 @@ nav {
 a:link {
         text-decoration: none;
         letter-spacing: 1px;
-        font-size: 1em;
+        font-size: 1.4em;
         align-content: right;
-        font-family: 'raleway';
-        text-transform: uppercase;
+        font-family: 'reenie beanie';
+        text-transform: lowercase;
         font-weight: 600;
         color: black;
 }
@@ -171,17 +171,15 @@ a:link {
 /* unvisited link */
  a:link {
         color: black;
-        font-family: 'raleway';
-        text-transform: uppercase;
-       
-    
+        font-family: 'reenie beanie';
+        text-transform: lowercase;
        }
 
 /* visited link */
 a:visited {
         color: black;
-        font-family: 'raleway';
-        text-transform: uppercase;
+        font-family: 'reenie beanie;
+        text-transform: lowercase;
         position: fixed;
        }
 
