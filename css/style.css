@@ -321,9 +321,9 @@ body {
            }
 
 h1 {
-    padding-top: .1em;
+    padding-top: .2em;
     font-family: 'raleway';
-    font-size: 1em;
+    font-size: 1.2em;
     color: black;
     text-transform: uppercase;
     font-weight: 500;
@@ -350,21 +350,24 @@ hr { display: block;
     
 }
 
-nav ul li {
-    display: inline;
-    width: 100px;
+nav {
+    width: 100%;
+    position: relative;
+    background: #F5E7EE;
+    display: inline-block;
     color: #000000;
     text-align: center;
-    text-decoration: none;
+    font-family: 'reenie beanie';
+    font-size: 1.6;
+    font-weight: 600;
+    letter-spacing: 1.1em;
 }
 
-li a:hover {
+
+
+
+nav:hover {
     color: #5B959D;
-}
-
-ul {
-    top: 100;
-    width: 100%;
 }
 
 
