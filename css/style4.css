@@ -5,6 +5,19 @@ font-size: 100%;
 line-height: 1cm;
 }
 
+/*----------------------*/
+
+div.palepink {
+    background-color: #F5E7EE;
+}
+
+
+div.turquoise {
+    background-color: #D8F1EB;
+}
+
+/*----------------------*/
+.visualmarque {width: 100%;}
 
 .amarque {
     width: 5%;
@@ -12,9 +25,6 @@ line-height: 1cm;
     float: left;   
 }
 
-.visualmarque {
-    width: 100%;
-}
 
 .scallops {
     width: 100%;
@@ -27,11 +37,8 @@ line-height: 1cm;
 }
 
 
-div.palepink {
-    background-color: #F5E7EE;
-}
 
-
+/*----------------------------*/
 .blockquote1 {margin-top: 1em;
             border-top: 1px solid white;
             border-bottom: 1px solid white;
@@ -39,52 +46,24 @@ div.palepink {
             margin-right: 9em;
             padding-left: 1em;
             padding-right: 1em;
-            color: darkslategray;
-            opacity: 0.7em;
+            color: black;
             font-family: 'raleway';
-            font-size: 1em;
-}
+            font-weight: 300;
+            font-size: 1.3em;
+            padding-bottom: .7em;}
 
 
+/*----------------------------*/
 
-
-
-
-.marque {
-    width: 8%;
-    height: auto;
-    float: left;
-    padding-left: 1em;
-    padding-bottom: .5em;
-    padding-top: .2em;
-    padding-right: 1em;
-    position: relative;
-}
-
-.marque:hover {
-    opacity: 0.8;
-}
-
-.one {
-    color: white;
-}
-
-
-h1 { font-family: 'reenie beanie';
-    font-size: 2em;
-    padding-top: 1em;
-    padding-bottom: 1em;}
-
-h2 { font-family: 'raleway';
+.portfolio { 
+    font-family: 'reenie beanie';
     font-weight: 400;
-    font-size: 1.5;
+    font-size: 2.7em;
     padding-top: .5em;
-    letter-spacing: .1em;
-    align-content: center;
-    }
+    letter-spacing: .2em;
+    align-content: center;}
 
-
-
+/*----------------------------*/
 
 .copyright {
     font-family: 'raleway';
@@ -92,8 +71,7 @@ h2 { font-family: 'raleway';
     font-size: 1.1em;
     padding-right: .5em;
     padding-left: 1.5em;
-    padding-bottom: 1em;
-}
+    padding-bottom: 1em;}
 
 .copy {
     font-family: 'raleway';
@@ -102,30 +80,34 @@ h2 { font-family: 'raleway';
     text-emphasis: bold;
     text-transform: uppercase;
     text-decoration-color: #97D0C0;
-    letter-spacing: .2em
-}
+    letter-spacing: .2em}
 
-
+p {
+    font-family: 'raleway';
+    font-size: 1em;
+    padding-right: 8em;
+    padding-left: 8em;
+    margin-left: 8em;
+    margin-right: 8em;
+    padding-top: 1em;
+    padding-bottom: 2em;
+    }
 
 
 .twitter:hover {
-    opacity: 0.5;
-}
+    opacity: 0.5;}
 
 .instagram:hover {
-    opacity: 0.5;
-}
+    opacity: 0.5;}
 
 .mail:hover {
-    opacity: 0.5;
-}
+    opacity: 0.5;}
 
 
 .socialicons { padding-top: 1em;
                 padding-bottom: 2em;
                 width: 70%;
-                height: auto;
-    }
+                height: auto;}
 
 .twitter {padding-right: .7em;}
 
@@ -141,23 +123,13 @@ nav {
     position: fixed;
     background: #F5E7EE;
     padding-top: .6em;
-    padding-bottom: .6em;
-    
-}
+    padding-bottom: .6em;}
 
 
 
 a:hover {
-    color: #5B959D;
-   
-}
+    color: #5B959D;}
 
-
-nav {
-    top: 100;
-    width: 100%;
-    
-}
 
 a:link {
         text-decoration: none;
@@ -187,7 +159,7 @@ a:visited {
 
 
 
-
+/*------------------------------*/
 
 .hvr-grow {
   display: inline-block;
@@ -220,5 +192,28 @@ float: right;
   box-sizing: border-box;
 }
 
+/*---------------------------------*/
 
+
+#photos {
+   /* Prevent vertical gaps */
+   line-height: 0;
+   
+   -webkit-column-count: 2;
+   -webkit-column-gap:   0px;
+   -moz-column-count:    2;
+   -moz-column-gap:      0px;
+   column-count:         2;
+   column-gap:           0px;
+    padding-left: 4em;
+    padding-right: 4em;
+    padding-top: 1em;
+    padding-bottom: 3em;
+}
+
+#photos img {
+  /* Just in case there are inline attributes */
+  width: 100%;
+  height: auto;
+    
 
