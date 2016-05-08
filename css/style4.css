@@ -81,16 +81,7 @@ h2 { font-family: 'raleway';
     align-content: center;
     }
 
-nav {
-    width: 100%;
-    position: relative;
-    top: 0;
-    opacity: 0.8;
-    position: fixed;
-    background: #F5E7EE;
-    padding-top: .6em;
-    padding-bottom: .6em;
-}
+
 
 
 .copyright {
@@ -140,18 +131,19 @@ nav {
 
 
 
-
-
-
-nav ul li {
-    display: inline;
-    position: inherit;
-    width: 100px;
-    color: #000000;
-    text-align: right;
-    text-decoration: none;
-    bottom: auto;
+nav {
+    width: 100%;
+    position: relative;
+    top: 0;
+    opacity: 0.8;
+    position: fixed;
+    background: #F5E7EE;
+    padding-top: .6em;
+    padding-bottom: .6em;
+    
 }
+
+
 
 li a:hover {
     color: #5B959D;
@@ -159,13 +151,13 @@ li a:hover {
 }
 
 
-ul {
+nav {
     top: 100;
     width: 100%;
     
 }
 
-li a:link {
+a:link {
         text-decoration: none;
         letter-spacing: 1px;
         font-size: 1em;
@@ -177,7 +169,7 @@ li a:link {
 }
         
 /* unvisited link */
- li a:link {
+ a:link {
         color: black;
         font-family: 'raleway';
         text-transform: uppercase;
@@ -186,7 +178,7 @@ li a:link {
        }
 
 /* visited link */
-li a:visited {
+a:visited {
         color: black;
         font-family: 'raleway';
         text-transform: uppercase;
