@@ -142,6 +142,10 @@ a:hover {
         align-content: center;
 }
 
+.viewmore:hover {
+    opacity: 0.5;
+}
+
 
 a:link {
         text-decoration: none;
