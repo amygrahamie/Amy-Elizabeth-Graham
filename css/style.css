@@ -330,11 +330,12 @@ body {
 h1 {
     padding-top: .2em;
     font-family: 'raleway';
-    font-size: 1.2em;
+    font-size: 1em;
     color: black;
     text-transform: uppercase;
     font-weight: 500;
     opacity: 0.8;
+    letter-spacing: .1em;
 }
 
 
@@ -357,7 +358,7 @@ hr { display: block;
     
 }
 
-nav {
+.nav {
     width: 100%;
     position: relative;
     background: #F5E7EE;
@@ -365,23 +366,25 @@ nav {
     color: #000000;
     text-align: center;
     font-family: 'reenie beanie';
-    font-size: 1.6;
+    font-size: 1.2em;
     font-weight: 600;
     letter-spacing: 1.1em;
+    padding-top: .3em;
 }
 
 
-
+/*-----------------*/
 
 nav:hover {
     color: #5B959D;
 }
 
 
+/*-----------------*/
 
 a:link {
         text-decoration: none;
-        text-transform: uppercase;
+        text-transform: lowercase;
         font-size: 70%;
         letter-spacing: .1em;
 }
@@ -389,21 +392,24 @@ a:link {
 /* unvisited link */
  a:link {
         color: black;
-        text-transform: uppercase;}
+        text-transform: lowercase;}
 
 /* visited link */
 a:visited {
         color: black;
-        text-transform: uppercase;}
+        text-transform: lowercase;}
 
+
+/*-----------------*/
 
 .Marque {
     margin-top: 2em;
     align-content: center;
-    width: 150px;    
+    width: 150px;
+    padding-bottom: .3em;
 }
 
-
+/*-----------------*/
 
 .meetme {
     width: 100%;
@@ -467,7 +473,12 @@ a:visited {
     padding-top: 1em;
     padding-bottom: 1em;}
 
-.text { width: 70%;}
+
+/*-------------------*/
+
+.text { width: 80%;}
+
+/*-------------------*/
 
 .hvr-grow {
   display: inline-block;
