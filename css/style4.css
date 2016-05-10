@@ -43,10 +43,10 @@ div.turquoise {
 /*----------------------*/
 
 
-.visualmarque {width: 103.3%;}
+.visualmarque {width: 100%;}
 
 .bridesmaid {
-    width: 103%;
+    width: 100%;
 }
 
 /*-----TOP LEFT A MARQUE----*/
@@ -547,7 +547,426 @@ ul.img-list li:hover span.vinylcovers {
   opacity: 1;}
 
 
-/*---------------------------------*/
+/*-----------SIDE-PROJECT------------*/
+
+
+span.lion {
+  
+  color: white;
+  cursor: pointer;
+  display: table;
+  width: 569px;
+  height: 500px;
+  left: 0;
+  position: absolute;
+  top: 0;
+    -webkit-transition: opacity 500ms;
+  -moz-transition: opacity 500ms;
+  -o-transition: opacity 500ms;
+  transition: opacity 500ms;
+	
+}
+
+span.lion span {
+  display: table-cell;
+  text-align: center;
+  vertical-align: middle;
+}
+
+span.lion {
+  background: rgba(0,0,0,0.5);
+  color: white;
+  cursor: pointer;
+  display: table;
+  height: 500px;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 569px;
+  opacity: 0;
+  font-size: 1.5em;
+  font-family: 'raleway';
+  letter-spacing: .2em;
+  text-transform: uppercase;
+font-weight: 600;}
+
+ul.img-list li:hover span.lion {
+  opacity: 1;}
+
+
+/*------------------------------*/
+
+
+span.Tajmahal {
+  
+  color: white;
+  cursor: pointer;
+  display: table;
+  width: 569px;
+  height: 320px;
+  left: 0;
+  position: absolute;
+  top: 0;
+    -webkit-transition: opacity 500ms;
+  -moz-transition: opacity 500ms;
+  -o-transition: opacity 500ms;
+  transition: opacity 500ms;
+	
+}
+
+span.Tajmahal span {
+  display: table-cell;
+  text-align: center;
+  vertical-align: middle;
+}
+
+span.Tajmahal {
+  background: rgba(0,0,0,0.5);
+  color: white;
+  cursor: pointer;
+  display: table;
+  height: 320px;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 569px;
+  opacity: 0;
+  font-size: 1.5em;
+  font-family: 'raleway';
+  letter-spacing: .2em;
+  text-transform: uppercase;
+font-weight: 600;}
+
+ul.img-list li:hover span.Tajmahal {
+  opacity: 1;}
+
+
+/*------------------------------*/
+
+span.paperele {
+  
+  color: white;
+  cursor: pointer;
+  display: table;
+  width: 569px;
+  height: 320px;
+  left: 0;
+  position: absolute;
+  top: 0;
+    -webkit-transition: opacity 500ms;
+  -moz-transition: opacity 500ms;
+  -o-transition: opacity 500ms;
+  transition: opacity 500ms;
+	
+}
+
+span.paperele span {
+  display: table-cell;
+  text-align: center;
+  vertical-align: middle;
+}
+
+span.paperele {
+  background: rgba(0,0,0,0.5);
+  color: white;
+  cursor: pointer;
+  display: table;
+  height: 320px;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 569px;
+  opacity: 0;
+  font-size: 1.5em;
+  font-family: 'raleway';
+  letter-spacing: .2em;
+  text-transform: uppercase;
+font-weight: 600;}
+
+ul.img-list li:hover span.paperele {
+  opacity: 1;}
+
+
+/*------------------------------*/
+
+
+span.worldmap {
+  
+  color: white;
+  cursor: pointer;
+  display: table;
+  width: 569px;
+  height: 371px;
+  left: 0;
+  position: absolute;
+  top: 0;
+    -webkit-transition: opacity 500ms;
+  -moz-transition: opacity 500ms;
+  -o-transition: opacity 500ms;
+  transition: opacity 500ms;
+	
+}
+
+span.worldmap span {
+  display: table-cell;
+  text-align: center;
+  vertical-align: middle;
+}
+
+span.worldmap {
+  background: rgba(0,0,0,0.5);
+  color: white;
+  cursor: pointer;
+  display: table;
+  height: 371px;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 569px;
+  opacity: 0;
+  font-size: 1.5em;
+  font-family: 'raleway';
+  letter-spacing: .2em;
+  text-transform: uppercase;
+font-weight: 600;}
+
+ul.img-list li:hover span.worldmap {
+  opacity: 1;}
+
+
+/*------------------------------*/
+
+
+span.typographyshot {
+  
+  color: white;
+  cursor: pointer;
+  display: table;
+  width: 569px;
+  height: 310px;
+  left: 0;
+  position: absolute;
+  top: 0;
+    -webkit-transition: opacity 500ms;
+  -moz-transition: opacity 500ms;
+  -o-transition: opacity 500ms;
+  transition: opacity 500ms;
+	
+}
+
+span.typographyshot span {
+  display: table-cell;
+  text-align: center;
+  vertical-align: middle;
+}
+
+span.typographyshot {
+  background: rgba(0,0,0,0.5);
+  color: white;
+  cursor: pointer;
+  display: table;
+  height: 310px;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 569px;
+  opacity: 0;
+  font-size: 1.5em;
+  font-family: 'raleway';
+  letter-spacing: .2em;
+  text-transform: uppercase;
+font-weight: 600;}
+
+ul.img-list li:hover span.typographyshot {
+  opacity: 1;}
+
+
+/*------------------------------*/
+
+span.formaltags {
+  
+  color: white;
+  cursor: pointer;
+  display: table;
+  width: 569px;
+  height: 515px;
+  left: 0;
+  position: absolute;
+  top: 0;
+    -webkit-transition: opacity 500ms;
+  -moz-transition: opacity 500ms;
+  -o-transition: opacity 500ms;
+  transition: opacity 500ms;
+	
+}
+
+span.formaltags span {
+  display: table-cell;
+  text-align: center;
+  vertical-align: middle;
+}
+
+span.formaltags {
+  background: rgba(0,0,0,0.5);
+  color: white;
+  cursor: pointer;
+  display: table;
+  height: 515px;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 569px;
+  opacity: 0;
+  font-size: 1.5em;
+  font-family: 'raleway';
+  letter-spacing: .2em;
+  text-transform: uppercase;
+font-weight: 600;}
+
+ul.img-list li:hover span.formaltags {
+  opacity: 1;}
+
+
+/*------------------------------*/
+ 
+
+span.scrapbooking {
+  
+  color: white;
+  cursor: pointer;
+  display: table;
+  width: 569px;
+  height: 463px;
+  left: 0;
+  position: absolute;
+  top: 0;
+    -webkit-transition: opacity 500ms;
+  -moz-transition: opacity 500ms;
+  -o-transition: opacity 500ms;
+  transition: opacity 500ms;
+	
+}
+
+span.scrapbooking span {
+  display: table-cell;
+  text-align: center;
+  vertical-align: middle;
+}
+
+span.scrapbooking {
+  background: rgba(0,0,0,0.5);
+  color: white;
+  cursor: pointer;
+  display: table;
+  height: 463px;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 569px;
+  opacity: 0;
+  font-size: 1.5em;
+  font-family: 'raleway';
+  letter-spacing: .2em;
+  text-transform: uppercase;
+font-weight: 600;}
+
+ul.img-list li:hover span.scrapbooking {
+  opacity: 1;}
+
+
+/*------------------------------*/
+
+
+span.Invitations {
+  
+  color: white;
+  cursor: pointer;
+  display: table;
+  width: 569px;
+  height: 515px;
+  left: 0;
+  position: absolute;
+  top: 0;
+    -webkit-transition: opacity 500ms;
+  -moz-transition: opacity 500ms;
+  -o-transition: opacity 500ms;
+  transition: opacity 500ms;
+	
+}
+
+span.Invitations span {
+  display: table-cell;
+  text-align: center;
+  vertical-align: middle;
+}
+
+span.Invitations {
+  background: rgba(0,0,0,0.5);
+  color: white;
+  cursor: pointer;
+  display: table;
+  height: 568px;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 569px;
+  opacity: 0;
+  font-size: 1.5em;
+  font-family: 'raleway';
+  letter-spacing: .2em;
+  text-transform: uppercase;
+font-weight: 600;}
+
+ul.img-list li:hover span.Invitations {
+  opacity: 1;}
+
+
+/*------------------------------*/
+
+
+
+span.prints {
+  
+  color: white;
+  cursor: pointer;
+  display: table;
+  width: 569px;
+  height: 415px;
+  left: 0;
+  position: absolute;
+  top: 0;
+    -webkit-transition: opacity 500ms;
+  -moz-transition: opacity 500ms;
+  -o-transition: opacity 500ms;
+  transition: opacity 500ms;
+	
+}
+
+span.prints span {
+  display: table-cell;
+  text-align: center;
+  vertical-align: middle;
+}
+
+span.prints {
+  background: rgba(0,0,0,0.5);
+  color: white;
+  cursor: pointer;
+  display: table;
+  height: 415px;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 569px;
+  opacity: 0;
+  font-size: 1.5em;
+  font-family: 'raleway';
+  letter-spacing: .2em;
+  text-transform: uppercase;
+font-weight: 600;}
+
+ul.img-list li:hover span.prints {
+  opacity: 1;}
 
 
 /*------------------------------*/
