@@ -146,9 +146,9 @@ p {
 
 nav {
     width: 100%;
-    position: relative;
     top: 0;
     opacity: 0.8;
+    position: fixed;
     position: fixed;
     background: #F5E7EE;
     padding-top: .6em;
@@ -219,6 +219,7 @@ a:visited {
 ul.img-list li {
   display: inline-block;
   position: relative;
+    z-index: -1;
   width: auto;
   background-size: cover;
   background-repeat: no-repeat;
