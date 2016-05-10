@@ -1,105 +1,360 @@
-* { 
-padding: 0;
-margin: 0;
-font-size: 100%;
-line-height: 1cm;
+         ul.img-list {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  text-align: center;
 }
 
-div.palepink {
-    background-color: #F5E7EE;
-}
-
-
-.Marque {
-    margin-top: 1.5em;
-    align-content: center;
-    width: 100px;    
-}
-
-
-
-.scallops {
-    width: 100%;
-
-}
-
-.list {padding-top: 1em;}
-
-
-
-h1 { font-family: 'reenie beanie';
-    font-size: 2em;
-    padding-top: 1em;
-    padding-bottom: 1em;}
-
-
-
-
-nav {
-    top: 100;
-    width: 100%;
-    
-}
-
-a:link {
-        text-decoration: none;
-        letter-spacing: 1px;
-        font-size: 1.4em;
-        align-content: right;
-        font-family: 'reenie beanie';
-        text-transform: lowercase;
-        font-weight: 600;
-        color: black;
-}
-        
-/* unvisited link */
- a:link {
-        color: black;
-        font-family: 'reenie beanie';
-        text-transform: lowercase;
-       }
-
-/* visited link */
-a:visited {
-        color: black;
-        font-family: 'reenie beanie;
-        text-transform: lowercase;
-        position: fixed;
-       }
-
-
-.hvr-grow {
+ul.img-list li {
   display: inline-block;
+  position: relative;
+  width: auto;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+span.alphabet {
+  
+  color: white;
+  cursor: pointer;
+  display: table;
+    width: 560px;
+    height: 373px;
+  left: 0;
+  position: absolute;
+  top: 0;
+    -webkit-transition: opacity 500ms;
+  -moz-transition: opacity 500ms;
+  -o-transition: opacity 500ms;
+  transition: opacity 500ms;
+	
+}
+
+span.alphabet span {
+  display: table-cell;
+  text-align: center;
   vertical-align: middle;
-  -webkit-transform: translateZ(0);
-  transform: translateZ(0);
-  box-shadow: 0 0 1px rgba(0, 0, 0, 0);
-  -webkit-backface-visibility: hidden;
-  backface-visibility: hidden;
-  -moz-osx-font-smoothing: grayscale;
-  -webkit-transition-duration: 0.3s;
-  transition-duration: 0.3s;
-  -webkit-transition-property: transform;
-  transition-property: transform;
-float: right;
-    padding-left: 1em;
-    padding-right: 1.5em;
-}
-.hvr-grow:hover, .hvr-grow:focus, .hvr-grow:active {
-  -webkit-transform: scale(1.1);
-  transform: scale(1.1);
 }
 
+span.alphabet {
+  background: rgba(0,0,0,0.5);
+  color: white;
+  cursor: pointer;
+  display: table;
+  height: 373px;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 560px;
+  opacity: 0;
+  font-size: 1em;
+  font-family: 'raleway';
+  letter-spacing: .2em;
+  text-transform: uppercase;}
 
-*,
-*:after,
-*:before {
-  -webkit-box-sizing: border-box;
-  -moz-box-sizing: border-box;
-  box-sizing: border-box;
+ul.img-list li:hover span.alphabet {
+  opacity: 1;}
+
+
+/*------------------------*/
+
+span.selfillustration {
+  
+  color: white;
+  cursor: pointer;
+  display: table;
+    width: 560px;
+    height: 550px;
+  left: 0;
+  position: absolute;
+  top: 0;
+    -webkit-transition: opacity 500ms;
+  -moz-transition: opacity 500ms;
+  -o-transition: opacity 500ms;
+  transition: opacity 500ms;
+	
 }
 
+span.selfillustration span {
+  display: table-cell;
+  text-align: center;
+  vertical-align: middle;
+}
+
+span.selfillustration {
+  background: rgba(0,0,0,0.5);
+  color: white;
+  cursor: pointer;
+  display: table;
+  height: 550px;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 560px;
+  opacity: 0;
+  font-size: 1em;
+  font-family: 'raleway';
+  letter-spacing: .2em;
+  text-transform: uppercase;}
+
+ul.img-list li:hover span.selfillustration {
+  opacity: 1;}
+
+/*---------------------------------*/
+
+
+span.monogram {
+  
+  color: white;
+  cursor: pointer;
+  display: table;
+    width: 560px;
+    height: 325px;
+  left: 0;
+  position: absolute;
+  top: 0;
+    -webkit-transition: opacity 500ms;
+  -moz-transition: opacity 500ms;
+  -o-transition: opacity 500ms;
+  transition: opacity 500ms;
+	
+}
+
+span.monogram span {
+  display: table-cell;
+  text-align: center;
+  vertical-align: middle;
+}
+
+span.monogram {
+  background: rgba(0,0,0,0.5);
+  color: white;
+  cursor: pointer;
+  display: table;
+  height: 325px;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 560px;
+  opacity: 0;
+  font-size: 1em;
+  font-family: 'raleway';
+  letter-spacing: .2em;
+  text-transform: uppercase;}
+
+ul.img-list li:hover span.monogram {
+  opacity: 1;}
+
+
+/*---------------------------------*/
+
+
+span.icons {
+  
+  color: white;
+  cursor: pointer;
+  display: table;
+    width: 560px;
+    height: 325px;
+  left: 0;
+  position: absolute;
+  top: 0;
+    -webkit-transition: opacity 500ms;
+  -moz-transition: opacity 500ms;
+  -o-transition: opacity 500ms;
+  transition: opacity 500ms;
+	
+}
+
+span.icons span {
+  display: table-cell;
+  text-align: center;
+  vertical-align: middle;
+}
+
+span.icons {
+  background: rgba(0,0,0,0.5);
+  color: white;
+  cursor: pointer;
+  display: table;
+  height: 185px;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 560px;
+  opacity: 0;
+  font-size: 1em;
+  font-family: 'raleway';
+  letter-spacing: .2em;
+  text-transform: uppercase;}
+
+ul.img-list li:hover span.icons {
+  opacity: 1;}
 
 
 
+
+/*---------------------------------*/
+
+
+span.macromicro {
+  
+  color: white;
+  cursor: pointer;
+  display: table;
+    width: 560px;
+    height: 325px;
+  left: 0;
+  position: absolute;
+  top: 0;
+    -webkit-transition: opacity 500ms;
+  -moz-transition: opacity 500ms;
+  -o-transition: opacity 500ms;
+  transition: opacity 500ms;
+	
+}
+
+span.macromicro span {
+  display: table-cell;
+  text-align: center;
+  vertical-align: middle;
+}
+
+span.macromicro {
+  background: rgba(0,0,0,0.5);
+  color: white;
+  cursor: pointer;
+  display: table;
+  height: 315px;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 560px;
+  opacity: 0;
+  font-size: 1em;
+  font-family: 'raleway';
+  letter-spacing: .2em;
+  text-transform: uppercase;}
+
+ul.img-list li:hover span.macromicro {
+  opacity: 1;}
+
+
+/*---------------------------------*/
+
+span.infographic {
+  
+  color: white;
+  cursor: pointer;
+  display: table;
+  width: 560px;
+  height: 1195px;
+  left: 0;
+  position: absolute;
+  top: 0;
+    -webkit-transition: opacity 500ms;
+  -moz-transition: opacity 500ms;
+  -o-transition: opacity 500ms;
+  transition: opacity 500ms;
+	
+}
+
+span.infographic span {
+  display: table-cell;
+  text-align: center;
+  vertical-align: middle;
+}
+
+span.infographic {
+  background: rgba(0,0,0,0.5);
+  color: white;
+  cursor: pointer;
+  display: table;
+  height: 1195px;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 560px;
+  opacity: 0;
+  font-size: 1em;
+  font-family: 'raleway';
+  letter-spacing: .2em;
+  text-transform: uppercase;}
+
+ul.img-list li:hover span.infographic {
+  opacity: 1;}
+
+
+/*---------------------------------*/
+
+span.vinylcovers {
+  
+  color: white;
+  cursor: pointer;
+  display: table;
+  width: 560px;
+  height: 398px;
+  left: 0;
+  position: absolute;
+  top: 0;
+    -webkit-transition: opacity 500ms;
+  -moz-transition: opacity 500ms;
+  -o-transition: opacity 500ms;
+  transition: opacity 500ms;
+	
+}
+
+span.vinylcovers span {
+  display: table-cell;
+  text-align: center;
+  vertical-align: middle;
+}
+
+span.vinylcovers {
+  background: rgba(0,0,0,0.5);
+  color: white;
+  cursor: pointer;
+  display: table;
+  height: 398px;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 560px;
+  opacity: 0;
+  font-size: 1em;
+  font-family: 'raleway';
+  letter-spacing: .2em;
+  text-transform: uppercase;}
+
+ul.img-list li:hover span.vinylcovers {
+  opacity: 1;}
+
+
+/*---------------------------------*/
+
+
+#photos {
+   /* Prevent vertical gaps */
+   line-height: 0;
+   
+   -webkit-column-count: 2;
+   -webkit-column-gap:   15px;
+   -moz-column-count:    2;
+   -moz-column-gap:      15px;
+   column-count:         2;
+   column-gap:           15px;
+    padding-left: 4em;
+    padding-right: 4em;
+    padding-top: 1em;
+    padding-bottom: 3em;
+}
+
+#photos img {
+  /* Just in case there are inline attributes */
+  width: 100%;
+  height: auto;
+    
+
+/*---------------------------------*/
+    
 

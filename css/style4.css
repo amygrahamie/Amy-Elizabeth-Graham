@@ -197,6 +197,343 @@ a:visited {
         position: fixed;
        }
 
+/*-----------------------------*/
+
+         ul.img-list {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+}
+
+ul.img-list li {
+  display: inline-block;
+  position: relative;
+  width: auto;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+
+
+span.alphabet {
+  
+  color: white;
+  cursor: pointer;
+  display: table;
+    width: 569px;
+    height: 377px;
+  left: 0;
+  position: absolute;
+  top: 0;
+    -webkit-transition: opacity 500ms;
+  -moz-transition: opacity 500ms;
+  -o-transition: opacity 500ms;
+  transition: opacity 500ms;
+	
+}
+
+span.alphabet span {
+  display: table-cell;
+  text-align: center;
+  vertical-align: middle;
+}
+
+span.alphabet {
+  background: rgba(0,0,0,0.5);
+  color: white;
+  cursor: pointer;
+  display: table;
+  height: 377px;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 569px;
+  opacity: 0;
+  font-size: 1em;
+  font-family: 'raleway';
+  letter-spacing: .2em;
+  text-transform: uppercase;}
+
+ul.img-list li:hover span.alphabet {
+  opacity: 1;}
+
+
+/*------------------------*/
+
+span.selfillustration {
+  
+  color: white;
+  cursor: pointer;
+  display: table;
+    width: 569px;
+    height: 558px;
+  left: 0;
+  position: absolute;
+  top: 0;
+    -webkit-transition: opacity 500ms;
+  -moz-transition: opacity 500ms;
+  -o-transition: opacity 500ms;
+  transition: opacity 500ms;
+	
+}
+
+span.selfillustration span {
+  display: table-cell;
+  text-align: center;
+  vertical-align: middle;
+}
+
+span.selfillustration {
+  background: rgba(0,0,0,0.5);
+  color: white;
+  cursor: pointer;
+  display: table;
+  height: 558px;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 569px;
+  opacity: 0;
+  font-size: 1em;
+  font-family: 'raleway';
+  letter-spacing: .2em;
+  text-transform: uppercase;}
+
+ul.img-list li:hover span.selfillustration {
+  opacity: 1;}
+
+/*---------------------------------*/
+
+
+span.monogram {
+  
+  color: white;
+  cursor: pointer;
+  display: table;
+    width: 569px;
+    height: 327px;
+  left: 0;
+  position: absolute;
+  top: 0;
+    -webkit-transition: opacity 500ms;
+  -moz-transition: opacity 500ms;
+  -o-transition: opacity 500ms;
+  transition: opacity 500ms;
+	
+}
+
+span.monogram span {
+  display: table-cell;
+  text-align: center;
+  vertical-align: middle;
+}
+
+span.monogram {
+  background: rgba(0,0,0,0.5);
+  color: white;
+  cursor: pointer;
+  display: table;
+  height: 327px;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 569px;
+  opacity: 0;
+  font-size: 1em;
+  font-family: 'raleway';
+  letter-spacing: .2em;
+  text-transform: uppercase;}
+
+ul.img-list li:hover span.monogram {
+  opacity: 1;}
+
+
+/*---------------------------------*/
+
+
+span.icons {
+  
+  color: white;
+  cursor: pointer;
+  display: table;
+    width: 569px;
+    height: 187px;
+  left: 0;
+  position: absolute;
+  top: 0;
+    -webkit-transition: opacity 500ms;
+  -moz-transition: opacity 500ms;
+  -o-transition: opacity 500ms;
+  transition: opacity 500ms;
+	
+}
+
+span.icons span {
+  display: table-cell;
+  text-align: center;
+  vertical-align: middle;
+}
+
+span.icons {
+  background: rgba(0,0,0,0.5);
+  color: white;
+  cursor: pointer;
+  display: table;
+  height: 187px;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 569px;
+  opacity: 0;
+  font-size: 1em;
+  font-family: 'raleway';
+  letter-spacing: .2em;
+  text-transform: uppercase;}
+
+ul.img-list li:hover span.icons {
+  opacity: 1;}
+
+
+
+
+/*---------------------------------*/
+
+
+span.macromicro {
+  
+  color: white;
+  cursor: pointer;
+  display: table;
+    width: 569px;
+    height: 320px;
+  left: 0;
+  position: absolute;
+  top: 0;
+    -webkit-transition: opacity 500ms;
+  -moz-transition: opacity 500ms;
+  -o-transition: opacity 500ms;
+  transition: opacity 500ms;
+	
+}
+
+span.macromicro span {
+  display: table-cell;
+  text-align: center;
+  vertical-align: middle;
+}
+
+span.macromicro {
+  background: rgba(0,0,0,0.5);
+  color: white;
+  cursor: pointer;
+  display: table;
+  height: 320px;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 569px;
+  opacity: 0;
+  font-size: 1em;
+  font-family: 'raleway';
+  letter-spacing: .2em;
+  text-transform: uppercase;}
+
+ul.img-list li:hover span.macromicro {
+  opacity: 1;}
+
+
+/*---------------------------------*/
+
+span.infographic {
+  
+  color: white;
+  cursor: pointer;
+  display: table;
+  width: 569px;
+  height: 1213px;
+  left: 0;
+  position: absolute;
+  top: 0;
+    -webkit-transition: opacity 500ms;
+  -moz-transition: opacity 500ms;
+  -o-transition: opacity 500ms;
+  transition: opacity 500ms;
+	
+}
+
+span.infographic span {
+  display: table-cell;
+  text-align: center;
+  vertical-align: middle;
+}
+
+span.infographic {
+  background: rgba(0,0,0,0.5);
+  color: white;
+  cursor: pointer;
+  display: table;
+  height: 1213px;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 569px;
+  opacity: 0;
+  font-size: 1em;
+  font-family: 'raleway';
+  letter-spacing: .2em;
+  text-transform: uppercase;}
+
+ul.img-list li:hover span.infographic {
+  opacity: 1;}
+
+
+/*---------------------------------*/
+
+span.vinylcovers {
+  
+  color: white;
+  cursor: pointer;
+  display: table;
+  width: 569px;
+  height: 403px;
+  left: 0;
+  position: absolute;
+  top: 0;
+    -webkit-transition: opacity 500ms;
+  -moz-transition: opacity 500ms;
+  -o-transition: opacity 500ms;
+  transition: opacity 500ms;
+	
+}
+
+span.vinylcovers span {
+  display: table-cell;
+  text-align: center;
+  vertical-align: middle;
+}
+
+span.vinylcovers {
+  background: rgba(0,0,0,0.5);
+  color: white;
+  cursor: pointer;
+  display: table;
+  height: 403px;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 569px;
+  opacity: 0;
+  font-size: 1em;
+  font-family: 'raleway';
+  letter-spacing: .2em;
+  text-transform: uppercase;}
+
+ul.img-list li:hover span.vinylcovers {
+  opacity: 1;}
+
+
+/*---------------------------------*/
 
 
 /*------------------------------*/
@@ -258,6 +595,8 @@ float: right;
     
 
 /*---------------------------------*/
+    
+    
     
     
    
