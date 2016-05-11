@@ -971,6 +971,57 @@ ul.img-list li:hover span.prints {
 
 /*------------------------------*/
 
+
+
+
+span.point {
+  
+  color: white;
+  cursor: pointer;
+  display: table;
+  width: 569px;
+  height: 415px;
+  left: 0;
+  position: absolute;
+  top: 0;
+    -webkit-transition: opacity 500ms;
+  -moz-transition: opacity 500ms;
+  -o-transition: opacity 500ms;
+  transition: opacity 500ms;
+	
+}
+
+span.point span {
+  display: table-cell;
+  text-align: center;
+  vertical-align: middle;
+}
+
+span.point {
+  background: rgba(0,0,0,0.5);
+  color: white;
+  cursor: pointer;
+  display: table;
+  height: 380px;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 569px;
+  opacity: 0;
+  font-size: 1.5em;
+  font-family: 'raleway';
+  letter-spacing: .2em;
+  text-transform: uppercase;
+font-weight: 600;}
+
+ul.img-list li:hover span.point {
+  opacity: 1;}
+
+
+/*------------------------------*/
+
+
+
 .hvr-grow {
   display: inline-block;
   vertical-align: middle;
