@@ -70,14 +70,13 @@ div.turquoise {
 .blockquote1 {margin-top: 1em;
             border-top: 1px solid white;
             border-bottom: 1px solid white;
-            margin-left: 9em;
-            margin-right: 9em;
-            padding-left: 1em;
-            padding-right: 1em;
+            max-width: 600px;
+            display: block;
+            margin: 0 auto;
             color: black;
             font-family: 'raleway';
             font-weight: 300;
-            font-size: 1.3em;
+            font-size: 1.2em;
             padding-bottom: .7em;}
 
 
@@ -113,12 +112,13 @@ div.turquoise {
 p {
     font-family: 'raleway';
     font-size: 1em;
-    padding-right: 8em;
-    padding-left: 8em;
-    margin-left: 8em;
-    margin-right: 8em;
+    max-width: 800px;
+    display: block;
+    margin: 0 auto;
     padding-top: 1em;
     padding-bottom: 2em;
+    padding-left: 1.5em;
+    padding-right: 1.5em;
     }
 
 /*----SOCIAL ICONS--------*/
@@ -135,12 +135,12 @@ p {
 
 .socialicons { padding-top: 1em;
                 padding-bottom: 2em;
-                width: 70%;
+                width: 80%;
                 height: auto;}
 
-.twitter {padding-right: .7em;}
+.twitter {padding-right: .4em;}
 
-.mail {padding-left: 1em;}
+.mail {padding-left: .6em;}
 
 /*---------NAV--------------*/
 
