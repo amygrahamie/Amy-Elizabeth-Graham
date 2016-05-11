@@ -185,7 +185,7 @@ a:visited {
 
 .introone {
     align-content: center;
-    font-size: 1.1em;
+    font-size: 1.2em;
     font-family: 'raleway';
     font-weight: 400;
     color: #000000;
@@ -199,7 +199,7 @@ a:visited {
 
 .intro {
     align-content: center;
-    font-size: 1.1em;
+    font-size: 1.2em;
     font-family: 'raleway';
     color: #000000;
        max-width: 600px;
@@ -210,7 +210,7 @@ a:visited {
 
 .introlast {
     align-content: center;
-    font-size: 1.1em;
+    font-size: 1.2em;
     font-family: 'raleway';
     color: #000000;
     padding-bottom: 3.5em;
